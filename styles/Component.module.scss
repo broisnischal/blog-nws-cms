@@ -1,0 +1,19 @@
+.link {
+  font-family: "Poppins";
+  font-weight: 300;
+  text-decoration: underline;
+}
+@media (prefers-color-scheme: light) {
+  .link {
+    &:hover {
+      color: royalblue;
+    }
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .link {
+    &:hover {
+      color: #ddd;
+    }
+  }
+}

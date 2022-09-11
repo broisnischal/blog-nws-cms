@@ -9,6 +9,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  margin: 0 5px;
+  &:hover {
+    color: #ddd;
+  }
 }
 
 * {
@@ -21,6 +25,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #161616;
   }
 }
