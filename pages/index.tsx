@@ -35,7 +35,7 @@ export default function Home() {
           </p>
         </p>
         <h2>Bye bye !</h2>
-        <span>Have your best day</span>
+        <span>Have your best day ! I am from future. </span>
       </main>
 
       <footer className={styles.footer}>
